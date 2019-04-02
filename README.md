@@ -9,18 +9,16 @@ css nothing.
 How to use this ->
 
 Step 1) I am having this in demo.html 
-  "<div id="dropzone" name="somename" class="dropzone" style="width: 200px; height: 200px"></div>"
+  "<div name="somename" class="dropzone" style="width: 200px; height: 200px"></div>"
   
   Actually, where we have create drag - drop div we have to just assign the class = "dropzone" to it.
   
 Step 2) Assign name to it so that when we get the value from the module (dropmodule => which provides all the values of files) it preserves
 in the dictionary as { name - files } pairs. So just assign name according to your convention.
 
-Step 3) Assign id to it, it is of no use as for our purpose.
+Step 3) We could provide height and width to the dropzone otherwise it will accomodate the whole width.
 
-Step 4) We could provide height and width to the dropzone otherwise it will accomodate the whole width.
-
-Step 5) Final Step - what should be the conclusion of the story - files, right?
+Step 4) Final Step - what should be the conclusion of the story - files, right?
 
 ~~~ Beware use async attribute in script file so that after DOM loaded script run afterthat ~~~
 for-ex <script async src="dragdrop.js"></script>
