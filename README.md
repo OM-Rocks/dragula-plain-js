@@ -4,7 +4,7 @@ This is very simplistic way to implement drag and drop feature in plain js anywh
 Hi, 
 
 It is the minimal way to do things like drag and drop without any plugins in everywhere because it's written purely in js 'no additional
-css nothing. 
+css nothing. You could attach multiple files to it.
 
 How to use this ->
 
